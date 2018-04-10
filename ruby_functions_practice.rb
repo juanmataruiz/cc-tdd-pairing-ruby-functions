@@ -48,3 +48,7 @@ end
 def volume_of_cube(l)
   return l**3
 end
+
+def volume_of_sphere(r)
+  return ((4/3.to_f)*Math::PI*(r**3)).to_i
+end
